@@ -19,6 +19,29 @@ html{
   scroll-behavior: smooth;
 }
 
+.sosmed-icons {
+  position: absolute;
+  bottom: 16%;
+  left: 6%;
+  display: flex;
+  gap: 1.2rem;
+  z-index: 999;
+}
+
+
+.sosmed-icons a {
+  font-size: 1.8rem;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.sosmed-icons a:hover {
+  color: #ddd;
+  transform: scale(1.1);
+  opacity: 0.8;
+
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -60,6 +83,25 @@ header{
 
 .navigation a:hover{
     color: #181f79;
+    background: transparent;
+}
+
+.navigation {
+    color: #fff;
+    padding: 8px 35px;
+    background: #181f79;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid #181f79;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  
+}
+.navigation:hover{
+  color: #181f79;
+  background: transparent;
 }
 
 .btn-talk{
@@ -74,21 +116,6 @@ header{
     justify-content: center;
     display: flex;
 }
-.navigation {
-    color: #181f79;
-    text-decoration: none;
-    padding: 5px 35px;
-    background: #181f79;
-    border-radius: 10px;
-    border: 2px solid #181f79;
-    font-weight: 400;
-    
-}
-.navigation:hover{
-    color: #181f79;
-    background: transparent;
-}
-
 .btn-talk:hover{
     color: #181f79;
     background: transparent;
